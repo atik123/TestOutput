@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    
+    
+}
+
+//-(void)testMethod:(NSString *)tmpStr;
+//-(void)testMethod:(int)tmpNum;
 
 @property (strong, nonatomic) UIWindow *window;
 

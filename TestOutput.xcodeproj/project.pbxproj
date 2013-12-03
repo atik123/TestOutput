@@ -234,6 +234,7 @@
 		60B8784F1840B5520006C2C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestOutput/TestOutput-Prefix.pch";
 				INFOPLIST_FILE = "TestOutput/TestOutput-Info.plist";
@@ -245,6 +246,7 @@
 		60B878501840B5520006C2C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestOutput/TestOutput-Prefix.pch";
 				INFOPLIST_FILE = "TestOutput/TestOutput-Info.plist";
